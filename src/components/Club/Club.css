@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Merriweather+Sans&family=Poppins&display=swap');
+
+td {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    /* color: darkslategray; */
+    color: #E8EAED;
+    border-radius: 2px;
+    line-height: 24px;
+    /* border-bottom: solid 1px rgba(255, 105, 180, 0.103); */
+    width: 5%;
+    padding: 5px;
+}
+
+.club-name {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14px;
+}
+
+tr:hover {
+    background-color: goldenrod;
+}

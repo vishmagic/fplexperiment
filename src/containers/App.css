@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Merriweather+Sans&family=Neuton:ital@1&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Georama:ital@1&display=swap');
+font-family: 'Georama', sans-serif; */
+
+.fpl_container {
+  background: #f9f9f9;
+
+  /* background-image: url(bg_8.jpg); */
+  /* height: 100%; */
+  
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+
+  display: flex;
+  flex-direction: row;
+}
+
+.fpl_nav {
+  height: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* background: #f6f6f7; */
+  /* position: fixed; */
+  /* border: solid 1px blue; */
+  width: 8rem;
+  z-index: 999;
+  /* background-color: #162a3175; */
+  /* box-shadow: 1px 0px hsla(220, 13%, 18%, 0.185); */
+}
+
+.fpl_clubs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content:flex-start;
+  width: 100%;
+  /* border: solid 1px purple */
+}
+
+.fpl_players {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content:flex-start;
+  width: 100%;
+  /* border: solid 1px purple */
+}
+
+.fpl_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 20px;
+  /* border: solid 1px gold */
+}
+
+.fpl_head > h1 {
+  /* font-family: 'Neuton', serif; */
+  font-family: 'Blinker', sans-serif;
+  font-size: 32px;
+}
+
+.fpl_clubInfo {
+  /* border:solid 1px red; */
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.fpl_playerInfo {
+  /* border:solid 1px red; */
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.fpl_sort {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.fpl_sort p {
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.sort_inactive {
+  border: solid 1px black;
+  background-color: #f9f9f9;
+}
+
+.sort_active {
+  /* border: solid 1px black; */
+  background-color:goldenrod;
+  color: white;
+}
+
+
+.sort_inactive:hover {
+  border: solid 1px goldenrod;
+  background-color: goldenrod;
+}

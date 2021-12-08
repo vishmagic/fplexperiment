@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Merriweather+Sans&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+
+.nav_container {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    cursor: pointer;
+}
+
+.nav_logo {
+    text-align: center;
+    /* padding: 50px 5px 1px 5px; */
+}
+
+.nav_logo > h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 3rem;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav > p {
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Georama', sans-serif;
+    font-size: 24px;
+    /* text-decoration: underline 0.15em rgba(255, 255, 255, 0); */
+
+    /* display: inline-block; */
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: auto;
+    padding: 2px 5px 2px 2px;
+}
+
+nav > p:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:goldenrod;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+
+nav > p:hover:after {
+    /* background: rgba(76, 117, 242, 0.19); */
+    /* transform: translate3d(0, 0, 0); */
+    /* transition: text-decoration-color 300ms ease-out; */
+    /* text-decoration-color: goldenrod; */
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.cl_act {
+    /* text-decoration: underline; */
+    color: goldenrod;
+    /* color: goldenrod; */
+}
+
+.pl_act {
+    /* text-decoration: underline; */
+    color: goldenrod;
+    /* color: gold; */
+}

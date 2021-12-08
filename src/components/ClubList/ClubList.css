@@ -1,0 +1,190 @@
+table {
+    width: 99%;
+    /* background: #121212; */
+    background: #f1f2f2;
+    opacity: 90%;
+    margin: 2px 2px;
+    border-collapse: collapse;
+    line-height: 18px;
+    /* border: solid 3px goldenrod; */
+    /* box-shadow: 1px 0px hsla(220, 13%, 18%, 0.185); */
+}
+  
+th {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    color: black;
+    /* color: #E8EAED; */
+    background-color: goldenrod;
+    border-radius: 2px;
+    width: 5%;
+    text-align: left;
+    text-transform: uppercase;
+    /* background: #f6f6f7; */
+    /* border-bottom: solid 2px goldenrod; */
+}
+
+td {
+    color: #121212;
+}
+
+.tb_text {
+    text-align: left;
+}
+  
+.tb_num {
+    text-align: right;
+}
+
+.fpl_clubReport {
+    width: 30%;
+    height: 300px;
+    /* border: solid 1px blue; */
+    margin-right: 10px;
+    /* background-color: #FFFFFF; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+.fpl_clubAtt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-left: 10px; */
+    height: 150px;
+    /* border-bottom: solid 1px black; */
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    /* visibility: visible; */
+    animation: slideInRight 1s;
+    animation-fill-mode: backwards;
+}
+
+.fpl_clubDef {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-left: 10px; */
+    height: 150px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    /* visibility: visible; */
+    animation: slideInRight 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.fpl_clubAtt span {
+    display: flex;
+    flex-direction: column;
+    /* border: solid 2px black; */
+    background-color: #f1f2f2;
+    height: 90%;
+    width: 45%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fpl_clubDef span {
+    display: flex;
+    flex-direction: column;
+    /* border: solid 3px goldenrod; */
+    background-color: #f1f2f2;
+    height: 90%;
+    width: 45%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fpl_clubAtt p {
+    color: #121212;
+    margin: 0px;
+}
+
+.fpl_clubDef p {
+    color: #121212;
+    margin: 0px;
+
+    /* The below effect works when the font size is pretty big */
+    /* background: url('../../diagonals-2.png');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+
+/* .fpl_clubAtt span:last-child:hover { */
+    /* background: url("https://resources.premierleague.com/premierleague/photos/players/110x140/p214590.png") center; */
+    /* background-color: goldenrod; */
+/* } */
+
+.fpl_clubAtt span:hover {
+    /* background: url("https://resources.premierleague.com/premierleague/photos/players/110x140/p214590.png") center; */
+    
+    /* filter: drop-shadow(3px 3px 0px black);
+    transition: filter 0.2s ease-in; */
+
+    background-color: goldenrod;
+    transition: background-color 0.2s ease-in;
+}
+
+.fpl_clubAtt span:hover > p:first-child {
+    font-size: 1.5rem;
+    transition: font-size 0.2s ease-in;
+    animation: moveTop 0.5s;
+    transform: translateX(-25px);
+}
+
+
+.fpl_clubDef span:hover {
+    /* background: url("https://resources.premierleague.com/premierleague/photos/players/110x140/p214590.png") center; */
+    background-color: goldenrod;
+    /* border: solid 3px goldenrod; */
+    transition: background-color 0.2s ease-in;
+}
+
+.fpl_clubDef span:hover > p:first-child {
+    font-size: 1.5rem;
+    transition: font-size 0.2s ease-in;
+    animation: moveTop 0.5s;
+    transform: translateX(-25px);
+}
+
+.ovrScroll, .fpl_sort {
+    animation: slideInRight 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveTop {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-25px);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: hidden;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  /* .animate__slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+  } */

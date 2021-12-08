@@ -1,0 +1,26 @@
+For Table:
+Noto Serif -
+https://fonts.google.com/specimen/Noto+Serif?preview.text=FPL&preview.text_type=custom&preview.size=120
+https://fonts.google.com/specimen/Cutive+Mono?preview.text=GS&preview.text_type=custom&category=Monospace&preview.size=29
+https://fonts.google.com/specimen/Noto+Sans+JP?preview.text=Arsenal&preview.text_type=custom&category=Sans+Serif&preview.size=29
+https://fonts.google.com/specimen/Roboto?preview.text=Arsenal&preview.text_type=custom&category=Sans+Serif&preview.size=29
+https://fonts.google.com/specimen/Teko?preview.text=Arsenal&preview.text_type=custom&category=Sans+Serif&preview.size=29
+https://fonts.google.com/specimen/Playfair+Display?preview.text=Arsenal&preview.text_type=custom&category=Serif&preview.size=29
+https://fonts.google.com/specimen/Playfair+Display+SC?preview.text=Arsenal&preview.text_type=custom&category=Serif&preview.size=29
+https://fonts.google.com/specimen/Ubuntu?preview.text=clubs&preview.text_type=custom&category=Sans+Serif
+https://fonts.google.com/specimen/Staatliches?preview.text=arsenal&preview.text_type=custom&category=Display#standard-styles
+https://fonts.google.com/specimen/Bebas+Neue?preview.text=arsenal%205200&preview.text_type=custom&category=Display
+https://fonts.google.com/specimen/Lobster?category=Display&preview.text=5200&preview.text_type=custom
+
+For FPL font logo:
+https://fonts.google.com/specimen/Archivo+Black?preview.text=FPL&preview.text_type=custom&preview.size=120&thickness=8&width=8
+https://fonts.google.com/specimen/Limelight?preview.text=FPL&preview.text_type=custom&preview.size=120&thickness=8&width=8
+https://fonts.google.com/specimen/Alfa+Slab+One?preview.text=FPL&preview.text_type=custom&preview.size=120&category=Display
+https://fonts.google.com/specimen/Monoton?preview.text=FPL&preview.text_type=custom&preview.size=120&category=Display
+https://fonts.google.com/specimen/Black+Ops+One?preview.text=FPL&preview.text_type=custom&preview.size=120&category=Display
+https://fonts.google.com/specimen/Bungee?preview.text=FPL&preview.text_type=custom&preview.size=120&category=Display
+https://fonts.google.com/specimen/Gravitas+One?preview.text=FPL&preview.text_type=custom&preview.size=120&category=Display
+https://fonts.google.com/specimen/Bungee+Shade?preview.text=FPL&preview.text_type=custom&preview.size=120&category=Display
+https://fonts.google.com/specimen/Big+Shoulders+Inline+Text?preview.text=FPL&preview.text_type=custom&preview.size=120&category=Display
+https://fonts.google.com/specimen/Saira+Stencil+One?preview.text=FPL&preview.text_type=custom&preview.size=120&category=Display#standard-styles
+https://fonts.google.com/specimen/Bungee+Outline?preview.text=FPL&preview.text_type=custom&preview.size=120&category=Display
