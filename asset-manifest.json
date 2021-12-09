@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fplexperiment/static/css/main.47e3cbcd.chunk.css",
+    "main.js": "/fplexperiment/static/js/main.7f2bbf59.chunk.js",
+    "main.js.map": "/fplexperiment/static/js/main.7f2bbf59.chunk.js.map",
+    "runtime-main.js": "/fplexperiment/static/js/runtime-main.f5374e28.js",
+    "runtime-main.js.map": "/fplexperiment/static/js/runtime-main.f5374e28.js.map",
+    "static/js/2.91b2e9e9.chunk.js": "/fplexperiment/static/js/2.91b2e9e9.chunk.js",
+    "static/js/2.91b2e9e9.chunk.js.map": "/fplexperiment/static/js/2.91b2e9e9.chunk.js.map",
+    "static/js/3.2ffb3559.chunk.js": "/fplexperiment/static/js/3.2ffb3559.chunk.js",
+    "static/js/3.2ffb3559.chunk.js.map": "/fplexperiment/static/js/3.2ffb3559.chunk.js.map",
+    "index.html": "/fplexperiment/index.html",
+    "static/css/main.47e3cbcd.chunk.css.map": "/fplexperiment/static/css/main.47e3cbcd.chunk.css.map",
+    "static/js/2.91b2e9e9.chunk.js.LICENSE.txt": "/fplexperiment/static/js/2.91b2e9e9.chunk.js.LICENSE.txt",
+    "static/media/4_fplLogo.9958ef9b.svg": "/fplexperiment/static/media/4_fplLogo.9958ef9b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5374e28.js",
+    "static/js/2.91b2e9e9.chunk.js",
+    "static/css/main.47e3cbcd.chunk.css",
+    "static/js/main.7f2bbf59.chunk.js"
+  ]
+}
