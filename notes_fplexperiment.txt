@@ -1,55 +1,67 @@
-1. Code cleanup:
-v1:
-<done> App.js to purely have the components
-<done> to move the main table renders within the components
-<done> ClublList and Club to be hosted within a main DataRender component - ClubList = DataRender
-<done> Compute attack and defence h and a as an average
-<done> pull tbody to clubList
-<done> add scroll to table
+v2:
+1. Code cleanup
 <in progress> to figure out how to add scroll to table body alone
-<done> depending on the navigation - DataRender to invoke either Club or Player data
-<done> sorting table
-<done> displaying in a sorted order by default
-<done><alternate below> Second table - stat table (alternate to report card idea till that is figured out)
-<--> to create a separate page for club report card and player report card
 <--> for each club - report card color to be different
-<done> setting and changing route
-<done><alternate below> adding a secondary table - this can be analysis table
 <--> to add focus mode button, which would highlight certain columns
 <--> to highlight top 2, 3 and 5 rows and bottom 3 rows
 <--> have active/inactive color states for the sort buttons
 <--> multiple evaluation of tempTable, to see if it can be pulled out
 <--> if else-if to switch case, explore
 <--> function to manage sort states
+<--> Add server to manage navigation
+<--> use server to push data into backend and fetch data from fpl end points
+<--> Explore nav vs switching between different tables
+<--> Explore table vs flex grid with divs for rendering data
+
+# for completed season
+<--> Since core data is just json, to move json data to a json backend either in mongo
+db || codebase || heroku
+
+# for live season
+<--> to add cors anywhere as part of script in order to avoid request access everytime
+
+2. App flow
+<--> to create a separate page for club report card and player report card
+
+v1:
+1. Code cleanup
+<done> App.js to purely have the components
+<done> to move the main table renders within the components
+<done> ClublList and Club to be hosted within a main DataRender component - ClubList = DataRender
+<done> Compute attack and defence h and a as an average
+<done> pull tbody to clubList
+<done> add scroll to table
+<done> depending on the navigation - DataRender to invoke either Club or Player data
+<done> sorting table
+<done> displaying in a sorted order by default
+<done><alternate below> Second table - stat table (alternate to report card idea till that is figured out)
+<done> setting and changing route
+<done><alternate below> adding a secondary table - this can be analysis table
 <done> create different scroll for players and clubs - done by passing route to scroll
 <done> logic to get min value skipping NaNs
 
-for completed season
-<--> Since core data is just json, to move json data to a json backend either in mongodb || codebase || heroku
+# for completed season
 <done> Save raw json data for future use
 
-for live season
-<--> to add cors anywhere as part of script in order to avoid request access everytime
-
-layout cleanup
+# layout cleanup
 <done> the current flex is broken, to fix the current flex layout for nav, h1 and the table
 
-achieving sort
+# achieving sort
 for every sort click, the table has to be re-rendered. would be helpful if table is stored in a variable for sorting
 the data has to be fully rendered to be stored in a variable/obj
 else, for every sort attempt, we have to invoke/re-render the cardlist/card component
 <done> fix sorting of the table
-<--> add a reset sort to get to original state
+<dropped> add a reset sort to get to original state
 
 2. App flow:
-ClubList
+# ClubList
 should also act as data renderer for Club List and Analysis table for club since the core data is the same
 input props => states from App.js => clubs and players
 objects and methods in ClubList to store goal_scored, assists, own_goals, goals_conceded
 output props => info from i/p objects and computed scores stored in ClubList table object to Club component
 output props => info from i/p objects and computed stats stored in a separate ClubList table object to Statc component
 
-Club
+# Club
 input props => states/info from ClubList
 render data
 
@@ -67,7 +79,7 @@ fetch - url.teams
 <done> strength_overall_home
 
 3.1.1 Data - basic analysis
-Attack related
+# Attack related
 <done> goals_scored => sum of all goals_scored for team or team_code
 <done> assists => sum of all goals_scored for team or team_code
 <done> clean_sheets - for gk - element_type == 3 + sum of all goals_scored for team or team_code
@@ -75,7 +87,7 @@ Attack related
 <--> compute point difference range
 <--> contribution to GS, A by roles
 
-Defence related
+# Defence related
 <done> goals_conceded - for gk - element_type == 3 + sum of all goals_scored for team or team_code
 <done> own_goals => sum of all own_goals for team or team_code
 <done> yellow_cards per team
@@ -91,7 +103,7 @@ Defence related
 
 3.2. for a player:
 fetch - url.elements
-group by team, by player role
+<--> group by team, by player role
 <done> web_name
 <done> element_type - this is player role - 1,GK -2,DEF -3,MID, 4- FWD
 <done> singular_name_short - from element_types
@@ -108,10 +120,12 @@ group by team, by player role
 <done> red_cards - for all
 <done> penalties_order
 
-The below is suitable for a watchlist not for all players
+#The below is suitable for a watchlist not for all players
 <--> Pts per minute
 <--> Goal Scored per minute
 <--> Assists per minute
+
+<--> get good quality player photos
 
 Data for all
 <done> Pts per game
@@ -142,6 +156,7 @@ Data for all
 <done> making a FPL logo
 <done> change FPL logo
 
+#Resource for getting player photo from FPL site
 get player photos from 
 https://resources.premierleague.com/premierleague/photos/players/110x140/p69140.png
 the number after p$ is code from the json file
